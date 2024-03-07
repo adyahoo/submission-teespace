@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sapi Terbang</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header-container">
     <nav class="nav-container">
-        <img src="assets/logo_black.png" width="100" alt="Image of Logo">
+        <a href="#">
+            <img src="assets/logo_black.png" width="100" alt="Image of Logo">
+        </a>
         <ul type="none" style="display: flex; flex-direction: row">
             <li style="margin: 0 16px">
                 <a href="#" class="nav-link">Home</a>
             </li>
             <li style="margin: 0 16px">
-                <a href="#" class="nav-link">Get Started</a>
+                <a href="#get-started-content" class="nav-link">Get Started</a>
             </li>
             <li style="margin: 0 16px">
-                <a href="#" class="nav-link">Procedure</a>
+                <a href="#procedure-content" class="nav-link">Procedure</a>
             </li>
         </ul>
     </nav>
@@ -53,7 +58,8 @@
             </aside>
             <div class="col-6">
                 <h1 class="title-2">Free and easy way to bring your ideas to life</h1>
-                <p class="text-description">Lorem ipsum det, cowec tetur duis necgi det, consec t eturlagix adipiscing eliet, cowec tetopak</p>
+                <p class="text-description">Lorem ipsum det, cowec tetur duis necgi det, consec t eturlagix adipiscing
+                    eliet, cowec tetopak</p>
                 <a href="#" class="btn-primary">Get Started</a>
             </div>
         </article>
@@ -84,9 +90,21 @@
                     <p>2</p>
                 </div>
                 <div class="col-5">
-                    <h2 class="title-4">Custom artwork &review</h2>
+                    <h2 class="title-4">Custom artwork & review</h2>
                     <p class="text-description">Lorem ipsum det, cowec tetur duis nec fringi det,
                         consec t eturlagix adipiscing eliet, cowec tetopak nec
+                        fringi det adipiscing</p>
+                </div>
+            </article>
+            <article id="procedure-3" class="flex row col-8 justify-between item-center" style="margin-top: 40px">
+                <img class="col-5" src="assets/content-3.png" alt="Procedure 1">
+                <div class="col-2 text-center point-container">
+                    <p>3</p>
+                </div>
+                <div class="col-5">
+                    <h2 class="title-4">Enjoy your product</h2>
+                    <p class="text-description">Lorem ipsum det, cowec tetur duis nec fringi det, consec t eturlagix adipiscing eliet, cowec tetopak
+                        nec
                         fringi det adipiscing</p>
                 </div>
             </article>
@@ -99,31 +117,42 @@
         <div class="flex row col-8">
             <div class="col-4">
                 <img src="assets/logo_black.png" alt="Image of Logo" width="150"/>
-                <p>Maulidi Adi Prasetia <br>(Front-End Programmer)</p>
-                <p>maulidy.ady666@yahoo.com</p>
-                <p>From Bali, Island of Paradise</p>
+                <p class="text-description">
+                    Maulidi Adi Prasetia
+                    <br><span style="color: rgba(0,0,0,0.6); font-weight: bold">(Front-End Programmer)</span>
+                </p>
+                <p class="text-description">maulidy.ady666@yahoo.com</p>
+                <p class="text-description">From Bali, Island of Paradise</p>
             </div>
             <div class="col-4">
                 <h3 class="headline-1">Information</h3>
-                <p>About Us</p>
-                <p>Get Started</p>
-                <p>Procedure</p>
+                <a href="#">
+                    <p class="text-description">About Us</p>
+                </a>
+                <a href="#get-started-content">
+                    <p class="text-description">Get Started</p>
+                </a>
+                <a href="#procedure-content">
+                    <p class="text-description">Procedure</p>
+                </a>
             </div>
             <div class="col-4">
                 <h3 class="headline-1">News Letter</h3>
-                <p>Don't forget to get in touch by following these.</p>
-                <a href="#" class="flex row item-center" style="margin-bottom: 4px">
-                    <i class="fa-2x fa-brands fa-linkedin"></i><span style="margin-left: 6px">Maulidi Adi Prasetia</span>
+                <p class="text-description">Don't forget to get in touch by following these.</p>
+                <a href="https://www.linkedin.com/in/maulidi-adi/" class="icon-item flex row item-center"
+                   style="margin-bottom: 4px">
+                    <i class="fa-2x fa-brands fa-linkedin"></i><span
+                        style="margin-left: 6px">Maulidi Adi Prasetia</span>
                 </a>
-                <a href="#" class="flex row item-center" style="margin-bottom: 4px">
+                <a href="https://github.com/adyahoo" class="icon-item flex row item-center" style="margin-bottom: 4px">
                     <i class="fa-2x fa-brands fa-github"></i><span style="margin-left: 6px">adyahoo</span>
                 </a>
-                <a href="#" class="flex row item-center">
+                <a href="https://www.instagram.com/adyahooo/" class="icon-item flex row item-center">
                     <i class="fa-2x fa-brands fa-instagram"></i><span style="margin-left: 6px">Adyahooo</span>
                 </a>
             </div>
         </div>
-        <p class="text-small" style="margin-top: 32px">© 2022 TeeSpace. All rights reserved.</p>
+        <p class="text-small" style="margin-top: 32px">© 2024 TeeSpace. All rights reserved.</p>
     </div>
 </footer>
 
